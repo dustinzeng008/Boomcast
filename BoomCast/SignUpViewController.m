@@ -7,7 +7,6 @@
 //
 
 #import "SignUpViewController.h"
-#import "YZTool.h"
 #import <MBProgressHUD.h>
 #import "YZCircularTextField.h"
 #import <TSMessage.h>

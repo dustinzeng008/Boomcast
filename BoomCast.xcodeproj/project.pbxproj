@@ -25,7 +25,6 @@
 		0447B2691E025F15006595DE /* YZLiveRoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0447B2681E025F15006595DE /* YZLiveRoomViewController.m */; };
 		04552EC51DEFE2A3004333B6 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04552EC21DEFE2A3004333B6 /* SignUpViewController.m */; };
 		04552EC61DEFE2A3004333B6 /* ResetPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04552EC41DEFE2A3004333B6 /* ResetPasswordViewController.m */; };
-		04552EC91DEFE8DE004333B6 /* YZTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 04552EC81DEFE8DE004333B6 /* YZTool.m */; };
 		04552EE91DF7D8FB004333B6 /* videoprp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04552EE71DF7D8FB004333B6 /* videoprp.framework */; };
 		04552EEA1DF7D8FB004333B6 /* AgoraRtcEngineKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04552EE81DF7D8FB004333B6 /* AgoraRtcEngineKit.framework */; };
 		04552EEC1DF7D985004333B6 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 04552EEB1DF7D985004333B6 /* libc++.tbd */; };
@@ -134,8 +133,6 @@
 		04552EC21DEFE2A3004333B6 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
 		04552EC31DEFE2A3004333B6 /* ResetPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResetPasswordViewController.h; sourceTree = "<group>"; };
 		04552EC41DEFE2A3004333B6 /* ResetPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResetPasswordViewController.m; sourceTree = "<group>"; };
-		04552EC71DEFE8DE004333B6 /* YZTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZTool.h; sourceTree = "<group>"; };
-		04552EC81DEFE8DE004333B6 /* YZTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZTool.m; sourceTree = "<group>"; };
 		04552EE71DF7D8FB004333B6 /* videoprp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = videoprp.framework; path = BoomCast/videoprp.framework; sourceTree = "<group>"; };
 		04552EE81DF7D8FB004333B6 /* AgoraRtcEngineKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AgoraRtcEngineKit.framework; path = BoomCast/AgoraRtcEngineKit.framework; sourceTree = "<group>"; };
 		04552EEB1DF7D985004333B6 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
@@ -277,13 +274,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0445A3131E14249200AC11D5 /* CustomDialog */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = CustomDialog;
-			sourceTree = "<group>";
-		};
 		0447B25D1E025E85006595DE /* Agora */ = {
 			isa = PBXGroup;
 			children = (
@@ -426,12 +416,7 @@
 			children = (
 				04E87BBE1DE552F300F2EEAC /* Resources */,
 				04E87BB91DE5523700F2EEAC /* Module */,
-				04E87BB81DE5523200F2EEAC /* Lib */,
-				04E87BB71DE5522600F2EEAC /* Service */,
-				04E87BB61DE5521F00F2EEAC /* Util */,
-				04E87BB51DE5520F00F2EEAC /* DB */,
 				04E87BB41DE5520900F2EEAC /* Http */,
-				04E87BB31DE5520000F2EEAC /* Entity */,
 				04E87BB21DE551F500F2EEAC /* General */,
 				04E87B7F1DE54E2A00F2EEAC /* Supporting Files */,
 			);
@@ -476,13 +461,6 @@
 			name = General;
 			sourceTree = "<group>";
 		};
-		04E87BB31DE5520000F2EEAC /* Entity */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Entity;
-			sourceTree = "<group>";
-		};
 		04E87BB41DE5520900F2EEAC /* Http */ = {
 			isa = PBXGroup;
 			children = (
@@ -490,36 +468,6 @@
 				04064B981E19F0A300137852 /* YZFirebaseNetUtils.m */,
 			);
 			name = Http;
-			sourceTree = "<group>";
-		};
-		04E87BB51DE5520F00F2EEAC /* DB */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = DB;
-			sourceTree = "<group>";
-		};
-		04E87BB61DE5521F00F2EEAC /* Util */ = {
-			isa = PBXGroup;
-			children = (
-				04552EC71DEFE8DE004333B6 /* YZTool.h */,
-				04552EC81DEFE8DE004333B6 /* YZTool.m */,
-			);
-			name = Util;
-			sourceTree = "<group>";
-		};
-		04E87BB71DE5522600F2EEAC /* Service */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Service;
-			sourceTree = "<group>";
-		};
-		04E87BB81DE5523200F2EEAC /* Lib */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Lib;
 			sourceTree = "<group>";
 		};
 		04E87BB91DE5523700F2EEAC /* Module */ = {
@@ -555,7 +503,6 @@
 		04E87BBC1DE5528D00F2EEAC /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				0445A3131E14249200AC11D5 /* CustomDialog */,
 				04E87BFC1DEB9BED00F2EEAC /* BaseSetting */,
 			);
 			name = UI;
@@ -1106,7 +1053,6 @@
 				04E87BD91DEA793D00F2EEAC /* YZNavigationController.m in Sources */,
 				045DFDC61E090331005AFCE7 /* YZHottestViewController.m in Sources */,
 				0447B25C1E025800006595DE /* YZPreLiveViewController.m in Sources */,
-				04552EC91DEFE8DE004333B6 /* YZTool.m in Sources */,
 				0447B2691E025F15006595DE /* YZLiveRoomViewController.m in Sources */,
 				0447B2661E025EBC006595DE /* KeyCenter.m in Sources */,
 				04064B8D1E14C90300137852 /* YZLiveRoomTableViewCell.m in Sources */,
