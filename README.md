@@ -12,14 +12,25 @@
 
 ##Screenshots
 - Home page: show broadcast list. Click profile image will display detail user information. Click one broadcast will join the live room.
-![] (./screenshots/home.PNG)
+
+<div align=center>
+	<img src="./screenshots/home.PNG" width="310" height="552"/>
+</div>
 
 - Search User Page: search users by input keywords. 
-![] (./screenshots/search_user.PNG)
-![] (./screenshots/Add_follow.PNG)
+<div align=center>
+	<img src="./screenshots/search_user.PNG" width="310" height="552"/>
+</div>
+<div align=center>
+	<img src="./screenshots/Add_follow.PNG" width="310" height="552"/>
+</div>
 
 - Live room page: View Live stream. Chatting and follow user.
-![] (./screenshots/liveroom.PNG)
+<div align=center>
+	<img src="./screenshots/liveroom.PNG" width="310" height="552"/>
+</div>
 
 - Profile Page: show user's basic information.
-![] (./screenshots/profile.PNG)
+<div align=center>
+	<img src="./screenshots/profile.PNG" width="310" height="552"/>
+</div>
